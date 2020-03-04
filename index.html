@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Interpolación de Aitken</title>
+    </head>
+<body>
+    <div class="GG">
+        <div class="container">
+            <h1>Interpolación de Aitken</h1>
+            <h2>Valores para X</h2>
+                <form>
+        
+                    <label for="X0">Ingrese el valor para X0:</label>
+                    <input type="number" id="valorX0" />
+    
+                    <label for="X1">Ingrese el valor para X1:</label>
+                    <input type="number" id="valorX1" />
+                        
+                    <label for="X2">Ingrese el valor para X2:</label>
+                    <input type="number" id="valorX2" />
+
+            <h2>Valores para f(X)</h2>
+                    <label for="X0">Ingrese el valor para f(X0):</label>
+                    <input type="number" id="valorFX0" />
+
+                    <label for="X1">Ingrese el valor para f(X1):</label>
+                    <input type="number" id="valorFX1" />
+                        
+                    <label for="X2">Ingrese el valor para f(X2):</label>
+                    <input type="number" id="valorFX2" />
+    
+                    <div class="panel">
+                        <input type="button" value="Verificar" class="column" id="btnVerificar">
+                    </div>
+
+                    <div class="row">
+                        <input type="button" value="Limpiar" class="column" id="btnLimpiar"/>
+                    </div>
+                </form>
+        </div>                 
+    </div>   
+</body>
+    <script src="main.js"></script>
+</html>
